@@ -1,0 +1,46 @@
+//very basic css, buttons have hover effect on browser, javascript will take hover effect away on touch devices
+//responsive on touch devices
+
+body {
+  max-width: auto;
+  max-height: auto;
+  background-color: grey; 
+}
+
+
+.jumbotron {
+  @media screen and (min-width: 900px)
+  position: center;
+  display: fixed;
+  text-align: center;
+  margin-top: 0 px;
+  background-color: white;
+  padding: auto;
+  font-family: sans-serif, roboto;
+}
+
+#random-quote {
+  text-align: center;
+}
+#image {
+      margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+
+#button {
+  height : 50px;
+  width : 115px;
+  font-family: sans-serif, roboto;
+  background-color: grey;
+  border: black;
+  border-radius: 15px;
+  padding: 0px;
+  outline: none;
+  
+}
+#button:hover {
+ background-color: red;
+  box-shadow: 5px 5px 5px #888888;
+}
+
